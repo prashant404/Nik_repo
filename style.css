@@ -37,6 +37,7 @@ nav {
   justify-content: space-around;
   align-items: center;
   height: 17vh;
+  background-color: #7798ba; /* Dark background for navigation */
 }
 
 .nav-links {
@@ -46,13 +47,13 @@ nav {
 }
 
 a {
-  color: black;
+  color: #ffffff; /* White text for links */
   text-decoration: none;
   text-decoration-color: white;
 }
 
 a:hover {
-  color: grey;
+  color: #adb5bd; /* Lighter grey on hover */
   text-decoration: underline;
   text-underline-offset: 1rem;
   text-decoration-color: rgb(181, 181, 181);
@@ -60,11 +61,13 @@ a:hover {
 
 .logo {
   font-size: 2rem;
+  color: #ffffff; /* White for logo */
 }
 
 .logo:hover {
   cursor: default;
 }
+
 
 /* HAMBURGER MENU */
 
@@ -404,12 +407,11 @@ article .icon {
   padding: 0.5rem;
 }
 
-.contact-info-container {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  gap: 0.5rem;
-  margin: 1rem;
+.contact-info-container a{
+    color: #131010; /* White text for links */
+    text-decoration: none;
+    text-decoration-color: white;
+
 }
 
 .contact-info-container p {
